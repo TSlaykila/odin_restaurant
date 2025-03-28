@@ -100,13 +100,53 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/about.js":
+/*!**********************!*\
+  !*** ./src/about.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   loadAbout: () => (/* binding */ loadAbout)\n/* harmony export */ });\nfunction loadAbout() {\n  var div_content = document.getElementById(\"content\");\n  div_content.innerHTML = \"\";\n  div_content.className = \"tab-content\";\n  var heading = document.createElement(\"h1\");\n  heading.textContent = \"About Us\";\n  var description = document.createElement(\"p\");\n  description.textContent = \"The Gastronomy & Latin Caribbean Club is a passionate community of food lovers, celebrating the rich flavors and traditions of Latin and Caribbean cuisine. Our mission is to bring people together through food, culture, and shared experiences.\";\n  var missionDiv = document.createElement(\"div\");\n  missionDiv.className = \"about-mission\";\n  var missionHeading = document.createElement(\"h2\");\n  missionHeading.textContent = \"Our Mission\";\n  var missionText = document.createElement(\"p\");\n  missionText.textContent = \"We strive to educate, inspire, and connect people through culinary traditions, hands-on cooking events, and cultural gatherings. Whether you're a seasoned chef or just discovering new flavors, there's a place for you here!\";\n  missionDiv.appendChild(missionHeading);\n  missionDiv.appendChild(missionText);\n\n  // Append elements to content\n  div_content.appendChild(heading);\n  div_content.appendChild(description);\n  div_content.appendChild(missionDiv);\n}\n\n//# sourceURL=webpack://restaurant_page/./src/about.js?");
+
+/***/ }),
+
+/***/ "./src/food_image_3.jpeg":
+/*!*******************************!*\
+  !*** ./src/food_image_3.jpeg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"d87d16b775b1cf9411b6.jpeg\";\n\n//# sourceURL=webpack://restaurant_page/./src/food_image_3.jpeg?");
+
+/***/ }),
+
+/***/ "./src/food_img_1.jpg":
+/*!****************************!*\
+  !*** ./src/food_img_1.jpg ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"eee3927acfaec84e9d12.jpg\";\n\n//# sourceURL=webpack://restaurant_page/./src/food_img_1.jpg?");
+
+/***/ }),
+
+/***/ "./src/food_img_2.jpg.jpg":
+/*!********************************!*\
+  !*** ./src/food_img_2.jpg.jpg ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a029a7b058a3df7eb05f.jpg\";\n\n//# sourceURL=webpack://restaurant_page/./src/food_img_2.jpg.jpg?");
+
+/***/ }),
+
 /***/ "./src/home.js":
 /*!*********************!*\
   !*** ./src/home.js ***!
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   loadHome: () => (/* binding */ loadHome)\n/* harmony export */ });\nfunction loadHome() {\n  var div_content = document.createElement(\"div\");\n  var heading = document.createElement(\"h1\");\n  heading.textContent = \"Gastronomy Latin & Caribbean Club\";\n  var description = document.createElement(\"p\");\n  description.textContent = \"Welcome to the Gastronomy & Latin Caribbean Club! We’re a community of food lovers and culture enthusiasts who come together to celebrate the rich flavors, traditions, and history of Latin Caribbean cuisine. From hands-on cooking experiences to cultural events and food tastings, we explore the vibrant culinary heritage that connects us all. Join us to share recipes, learn new techniques, and savor the delicious essence of Latin Caribbean gastronomy!\";\n  var logo = document.createElement(\"img\");\n  logo.src = \"logo.jpg\";\n  logo.alt = \"Club Logo\";\n  var infoDiv = document.createElement(\"div\");\n  var infoText = [\"The Gastronomy & Latin Caribbean Club is dedicated to celebrating the rich culinary and cultural traditions of Latin America and the Caribbean...\", \"We believe that food has the power to bring people together, creating bonds that transcend borders and backgrounds...\", \"Beyond cooking and tasting, we aim to educate and inspire...\"];\n  infoText.forEach(function (text) {\n    var p = document.createElement(\"p\");\n    p.textContent = text;\n    infoDiv.appendChild(p);\n  });\n  var subheading = document.createElement(\"h2\");\n  subheading.textContent = \"Some Dishes that we made before\";\n  var imagesDiv = document.createElement(\"div\");\n  var images = [{\n    src: \"food_img_1.jpg\",\n    alt: \"Arroz con habichuelas y pernil\"\n  }, {\n    src: \"food_img_2.jpg.jpg\",\n    alt: \"Sopa Paraguaya\"\n  }, {\n    src: \"food_image_3.jpeg\",\n    alt: \"Arepas Rellenas Venezolanas\"\n  }];\n  images.forEach(function (img) {\n    var newimg = document.createElement(\"img\");\n    newimg.src = img.src;\n    newimg.alt = img.alt;\n    imagesDiv.appendChild(newimg);\n  });\n\n  // Append elements to content\n  content.appendChild(heading);\n  content.appendChild(description);\n  content.appendChild(logo);\n  content.appendChild(infoDiv);\n  content.appendChild(subheading);\n  content.appendChild(imagesDiv);\n}\n\n//# sourceURL=webpack://restaurant_page/./src/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   loadHome: () => (/* binding */ loadHome)\n/* harmony export */ });\n/* harmony import */ var _logo_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./logo.jpg */ \"./src/logo.jpg\");\n/* harmony import */ var _food_img_1_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./food_img_1.jpg */ \"./src/food_img_1.jpg\");\n/* harmony import */ var _food_img_2_jpg_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./food_img_2.jpg.jpg */ \"./src/food_img_2.jpg.jpg\");\n/* harmony import */ var _food_image_3_jpeg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./food_image_3.jpeg */ \"./src/food_image_3.jpeg\");\n\n\n\n\nfunction loadHome() {\n  var div_content = document.getElementById(\"content\");\n  div_content.innerHTML = \"\";\n  var heading = document.createElement(\"h1\");\n  heading.textContent = \"Gastronomy Latin & Caribbean Club\";\n  var description = document.createElement(\"p\");\n  description.textContent = \"Welcome to the Gastronomy & Latin Caribbean Club! We’re a community of food lovers and culture enthusiasts who come together to celebrate the rich flavors, traditions, and history of Latin Caribbean cuisine.\";\n  var logo = document.createElement(\"img\");\n  logo.src = _logo_jpg__WEBPACK_IMPORTED_MODULE_0__; // ✅ Use imported path\n  logo.alt = \"Club Logo\";\n  var infoDiv = document.createElement(\"div\");\n  var infoText = [\"The Gastronomy & Latin Caribbean Club is dedicated to celebrating the rich culinary and cultural traditions of Latin America and the Caribbean...\", \"We believe that food has the power to bring people together, creating bonds that transcend borders and backgrounds...\", \"Beyond cooking and tasting, we aim to educate and inspire...\"];\n  infoText.forEach(function (text) {\n    var p = document.createElement(\"p\");\n    p.textContent = text;\n    infoDiv.appendChild(p);\n  });\n  var subheading = document.createElement(\"h2\");\n  subheading.textContent = \"Some Dishes that we made before\";\n  var imagesDiv = document.createElement(\"div\");\n  var images = [{\n    src: _food_img_1_jpg__WEBPACK_IMPORTED_MODULE_1__,\n    alt: \"Arroz con habichuelas y pernil\"\n  }, {\n    src: _food_img_2_jpg_jpg__WEBPACK_IMPORTED_MODULE_2__,\n    alt: \"Sopa Paraguaya\"\n  }, {\n    src: _food_image_3_jpeg__WEBPACK_IMPORTED_MODULE_3__,\n    alt: \"Arepas Rellenas Venezolanas\"\n  }];\n  images.forEach(function (img) {\n    var newimg = document.createElement(\"img\");\n    newimg.src = img.src; // ✅ Use imported paths\n    newimg.alt = img.alt;\n    imagesDiv.appendChild(newimg);\n  });\n\n  // Append elements to content\n  div_content.appendChild(heading);\n  div_content.appendChild(description);\n  div_content.appendChild(logo);\n  div_content.appendChild(infoDiv);\n  div_content.appendChild(subheading);\n  div_content.appendChild(imagesDiv);\n}\n\n//# sourceURL=webpack://restaurant_page/./src/home.js?");
 
 /***/ }),
 
@@ -116,7 +156,27 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.js */ \"./src/home.js\");\n\n\nalert(\"Hello World\");\n\n//# sourceURL=webpack://restaurant_page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.js */ \"./src/home.js\");\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu.js */ \"./src/menu.js\");\n/* harmony import */ var _about_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./about.js */ \"./src/about.js\");\n\n\n\n\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  var contentDiv = document.getElementById(\"content\");\n\n  // Load the home page by default\n  (0,_home_js__WEBPACK_IMPORTED_MODULE_1__.loadHome)();\n  document.getElementById(\"home-btn\").addEventListener(\"click\", function () {\n    (0,_home_js__WEBPACK_IMPORTED_MODULE_1__.loadHome)();\n  });\n  document.getElementById(\"menu-btn\").addEventListener(\"click\", function () {\n    (0,_menu_js__WEBPACK_IMPORTED_MODULE_2__.loadMenu)();\n  });\n  document.getElementById(\"about-btn\").addEventListener(\"click\", function () {\n    (0,_about_js__WEBPACK_IMPORTED_MODULE_3__.loadAbout)();\n  });\n});\n\n//# sourceURL=webpack://restaurant_page/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/logo.jpg":
+/*!**********************!*\
+  !*** ./src/logo.jpg ***!
+  \**********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"b8cdfc4fa15c1fb31a2b.jpg\";\n\n//# sourceURL=webpack://restaurant_page/./src/logo.jpg?");
+
+/***/ }),
+
+/***/ "./src/menu.js":
+/*!*********************!*\
+  !*** ./src/menu.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   loadMenu: () => (/* binding */ loadMenu)\n/* harmony export */ });\nfunction loadMenu() {\n  var div_content = document.getElementById(\"content\");\n  if (!div_content) {\n    console.error(\"Error: #content div not found.\");\n    return;\n  }\n  div_content.innerHTML = \"\";\n  var heading = document.createElement(\"h1\");\n  heading.textContent = \"Menu\";\n  var description = document.createElement(\"p\");\n  description.textContent = \"Explore our delicious Latin and Caribbean dishes! Our menu features a variety of traditional flavors, each crafted with authentic ingredients.\";\n  var menuDiv = document.createElement(\"div\");\n  var menuItems = [{\n    name: \"Mofongo\",\n    description: \"A delicious Puerto Rican dish made with fried green plantains, garlic, and pork cracklings.\"\n  }, {\n    name: \"Feijoada\",\n    description: \"A traditional Brazilian black bean stew with pork and beef, served with rice.\"\n  }, {\n    name: \"Ceviche\",\n    description: \"Fresh fish marinated in citrus juices, mixed with onions, cilantro, and peppers.\"\n  }];\n  menuItems.forEach(function (item) {\n    var itemDiv = document.createElement(\"div\");\n    itemDiv.classList.add(\"menu-item\");\n    var itemName = document.createElement(\"h3\");\n    itemName.textContent = item.name;\n    var itemDesc = document.createElement(\"p\");\n    itemDesc.textContent = item.description;\n    itemDiv.appendChild(itemName);\n    itemDiv.appendChild(itemDesc);\n    menuDiv.appendChild(itemDiv);\n  });\n  div_content.appendChild(heading);\n  div_content.appendChild(description);\n  div_content.appendChild(menuDiv);\n}\n\n//# sourceURL=webpack://restaurant_page/./src/menu.js?");
 
 /***/ }),
 
@@ -181,6 +241,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -195,6 +267,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript && document.currentScript.tagName.toUpperCase() === 'SCRIPT')
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/^blob:/, "").replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
